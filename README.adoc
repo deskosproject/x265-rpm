@@ -1,0 +1,6 @@
+= DeskOS: x265 RPM
+
+This is the _x265_ RPM package for the *DeskOS* operating system.
+
+Upstream comes from the NUX Dextop 7:
+http://li.nux.ro/download/nux/dextop/el7/SRPMS/x265-1.9-1.el7.nux.src.rpm[x265-1.9-1.el7.nux.src.rpm]

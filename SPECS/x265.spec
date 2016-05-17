@@ -1,7 +1,7 @@
 Summary:        H.265/HEVC encoder
 Name:           x265
 Version:        1.9
-Release:        1%{?dist}
+Release:        2%{?dist}
 URL:            http://x265.org/
 # source/Lib/TLibCommon - BSD
 # source/Lib/TLibEncoder - BSD
@@ -140,6 +140,9 @@ LD_LIBRARY_PATH=%{buildroot}%{_libdir} test/TestBench || :
 %{_libdir}/pkgconfig/%{name}.pc
 
 %changelog
+* Sun May 15 2016 Ricardo Arguello <rarguello@deskosproject.org> - 1.9-2
+- Rebuilt for DeskOS
+
 * Fri Feb 12 2016 Simone Caronni <negativo17@gmail.com> - 1.9-1
 - Update to version 1.9.
 
